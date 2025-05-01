@@ -1,4 +1,0 @@
-pip3 install -q mujoco
-pip3 install -q mujoco-mjx
-pip3 install -q brax
-pip3 install -q mediapy
