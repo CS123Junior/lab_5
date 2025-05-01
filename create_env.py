@@ -12,7 +12,7 @@ from brax.io import mjcf
 def get_simulation_config():
     simulation_config = config_dict.ConfigDict()
     simulation_config.model_repo = 'https://github.com/g-levine/pupper_v3_description'
-    simulation_config.original_model_path = 'pupper_v3_description/description/mujoco_xml/pupper_v3_complete.mjx.position.no_body.self_collision.xml'
+    simulation_config.original_model_path = 'pupper_v3_description/description/mujoco_xml/pupper_v3_complete.mjx.position.xml'
     simulation_config.model_xml = None  # Will be populated when needed
     simulation_config.model_path = "pupper_v3_description/description/mujoco_xml/model_with_obstacles.xml"
 
